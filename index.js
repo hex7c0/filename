@@ -2,9 +2,8 @@
 /**
  * @file filename main
  * @module filename
- * @package filename
  * @subpackage main
- * @version 0.0.1
+ * @version 0.0.0
  * @author hex7c0 <hex7c0@gmail.com>
  * @copyright hex7c0 2014
  * @license GPLv3
@@ -14,14 +13,8 @@
  * initialize module
  */
 // import
-try {
-    var path = require('path');
-    var basename = path.basename;
-    var extname = path.extname;
-} catch (MODULE_NOT_FOUND) {
-    console.error(MODULE_NOT_FOUND);
-    process.exit(1);
-}
+var basename = require('path').basename;
+var extname = require('path').extname;
 
 /*
  * functions
@@ -34,7 +27,8 @@ try {
  * @param {String} path - path
  * @return {String}
  */
-module.exports = function filename(path) {
+function filename(path) {
 
-    return basename(path, extname(path));
-};
+  return basename(path, extname(path));
+}
+module.exports = filename;
