@@ -4,6 +4,7 @@
 [![Linux Status](https://img.shields.io/travis/hex7c0/filename.svg?label=linux)](https://travis-ci.org/hex7c0/filename)
 [![Windows Status](https://img.shields.io/appveyor/ci/hex7c0/filename.svg?label=windows)](https://ci.appveyor.com/project/hex7c0/filename)
 [![Dependency Status](https://img.shields.io/david/hex7c0/filename.svg)](https://david-dm.org/hex7c0/filename)
+[![Coveralls](https://img.shields.io/coveralls/hex7c0/filename.svg)](https://coveralls.io/r/hex7c0/filename)
 
 Tiny module for get script filename
 
