@@ -1,5 +1,5 @@
 {
-  "version": "0.1.0",
+  "version": "0.1.1",
   "name": "filename",
   "description": "tiny module for get script filename",
   "keywords": [
