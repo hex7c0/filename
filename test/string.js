@@ -21,6 +21,7 @@ describe('string', function() {
 
   it('__filename', function(done) {
 
+    assert.deepEqual(filename(), 'string');
     assert.deepEqual(filename(__filename), 'string');
     assert.deepEqual(filename(__dirname), 'test');
     done();

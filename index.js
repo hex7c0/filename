@@ -27,7 +27,7 @@ var extname = require('path').extname;
  * @return {String}
  */
 function filename(path) {
-
+  path = path || module.parent.filename;
   return basename(path, extname(path));
 }
 module.exports = filename;
