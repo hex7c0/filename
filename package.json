@@ -1,12 +1,12 @@
 {
-  "version": "0.1.2",
+  "version": "0.2.0",
   "name": "filename",
   "description": "tiny module for get script filename",
   "keywords": [
     "filename"
   ],
   "preferGlobal": false,
-  "homepage": "http://supergiovane.tk/#/filename",
+  "homepage": "https://github.com/hex7c0/filename",
   "author": {
     "name": "hex7c0",
     "email": "hex7c0@gmail.com",

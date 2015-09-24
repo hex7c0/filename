@@ -1,4 +1,4 @@
-# [filename](http://supergiovane.tk/#/filename)
+# [filename](https://github.com/hex7c0/filename)
 
 [![NPM version](https://img.shields.io/npm/v/filename.svg)](https://www.npmjs.com/package/filename)
 [![Linux Status](https://img.shields.io/travis/hex7c0/filename.svg?label=linux)](https://travis-ci.org/hex7c0/filename)
