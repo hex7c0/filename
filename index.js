@@ -3,7 +3,7 @@
  * @file filename main
  * @module filename
  * @subpackage main
- * @version 0.1.0
+ * @version 0.2.0
  * @author hex7c0 <hex7c0@gmail.com>
  * @copyright hex7c0 2014
  * @license GPLv3
@@ -27,7 +27,8 @@ var extname = require('path').extname;
  * @return {String}
  */
 function filename(path) {
-  path = path || module.parent.filename;
-  return basename(path, extname(path));
+
+  var p = path || module.parent.filename;
+  return basename(p, extname(p));
 }
 module.exports = filename;
