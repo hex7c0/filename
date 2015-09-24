@@ -26,14 +26,16 @@ inside nodejs script
 ```js
 var filename = require('filename');
 
+var name = filename();
+// equal
 var name = filename(__filename);
 ```
 
-### filename(path)
+### filename([path])
 
 #### path
 
- - `path` - **String** Path to normalize *(default "required")*
+ - `path` - **String** Path to normalize *(default "module.parent.filename")*
 
 ## Examples
 

@@ -17,3 +17,4 @@ var filename = require('..'); // require('filename') instead
  * use
  */
 console.log(filename(__filename)); // print simple
+console.log(filename()); // print simple
