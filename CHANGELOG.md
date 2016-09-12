@@ -1,18 +1,23 @@
+v0.3.0 / 2016-09-12
+==================
+
+  * Tested against `node`@6
+
 v0.2.1 / 2015-11-23
 ==================
 
-  * Test `node`@5
+  * Tested against `node`@5
 
 v0.2.0 / 2015-09-24
 ==================
 
   * `path` is optional (@nswbmw)
-  * Test `node`@4
+  * Tested against `node`@4
 
 v0.1.2 / 2015-09-08
 ==================
 
-  * Test `iojs`@3
+  * Tested against `iojs`@3
 
 v0.1.1 / 2015-08-05
 ==================
