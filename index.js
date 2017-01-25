@@ -3,7 +3,7 @@
  * @file filename main
  * @module filename
  * @subpackage main
- * @version 0.2.0
+ * @version 0.4.0
  * @author hex7c0 <hex7c0@gmail.com>
  * @copyright hex7c0 2014
  * @license GPLv3
